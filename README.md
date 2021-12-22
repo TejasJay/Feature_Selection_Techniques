@@ -8,7 +8,7 @@ When building a machine learning model in real-life, it’s almost rare that all
 ## Types of feature selection techniques
 
 ### A. Filter methods
-The variance threshold is a simple baseline approach to feature selection. It removes all features which variance doesn’t meet some threshold. By default, it removes all zero-variance features, i.e., features that have the same value in all samples. We assume that features with a higher variance may contain more useful information, but note that we are not taking the relationship between feature variables or feature and target variables into account, which is one of the drawbacks of filter methods.
+Filter methods pick up the intrinsic properties of the features measured via univariate statistics instead of cross-validation performance. These methods are faster and less computationally expensive than wrapper methods. When dealing with high-dimensional data, it is computationally cheaper to use filter methods.
 - Variance Threshold
 - Correlation Coefficient
 - Information Gain
