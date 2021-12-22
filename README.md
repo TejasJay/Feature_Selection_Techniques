@@ -1,5 +1,6 @@
 # Feature_Selection_Techniques
 
+![60ecb081507f4559c84381f5_feature-selection-graphic](https://user-images.githubusercontent.com/79327536/147025433-62ccc991-639b-4f68-bd14-500cc8f298ea.png)
 
 
 When building a machine learning model in real-life, it’s almost rare that all the variables in the dataset are useful to build a model. Adding redundant variables reduces the generalization capability of the model and may also reduce the overall accuracy of a classifier. Furthermore adding more and more variables to a model increases the overall complexity of the model.
